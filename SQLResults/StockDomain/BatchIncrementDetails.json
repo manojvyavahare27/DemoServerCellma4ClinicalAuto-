@@ -1,0 +1,10 @@
+[
+  {
+    "stbat_id": 484,
+    "stbat_batch_number": "TestBatch",
+    "stbat_batch_change_type": "increment",
+    "sttra_quantity": 1,
+    "sttra_request_type": "return",
+    "sttra_status": "transferred"
+  }
+]
