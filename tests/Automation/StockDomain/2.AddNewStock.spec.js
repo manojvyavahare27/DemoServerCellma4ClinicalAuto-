@@ -135,8 +135,7 @@ test.describe("Database Comparison Add New Referral", () => {
 
    await addStockItems.enterPurchaseRate(jsonData.AddNewStock[0].stbat_purchase_price)
    await addStockItems.enterUnitCost(jsonData.AddNewStock[0].stbat_unit_cost)
-   await addStockItems.enterRetailPrice(jsonData.AddNewStock[0].stbat_retail_price)
-   
+   await addStockItems.enterRetailPrice(jsonData.AddNewStock[0].stbat_retail_price)   
    await addStockItems.FillPositions1()
   //  await addStockItems.FillPositions2()
   //  await addStockItems.FillPositions3()
