@@ -126,7 +126,7 @@ test.describe("Database Comparison Add New Referral", () => {
    await addStockItems.enterSerialNumber(jsonData.AddNewStock[0].stbat_serial_number)
    await page.waitForTimeout(1500)
   //  await addStockItems.enterSterilizationExpiryDate('01/01/2030')
-  //  await page.waitForTimeout(1500)
+  
    await addStockItems.enterManufacturedDate(jsonData.AddNewStock[0].stbat_manufacture_date)
    await page.waitForTimeout(1500)
    await addStockItems.enterReceivedDate(jsonData.AddNewStock[0].stbat_batch_received_date)
