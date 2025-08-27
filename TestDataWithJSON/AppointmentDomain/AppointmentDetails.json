@@ -18,9 +18,9 @@
   ],
   "addPatient": [
     {
-      "pat_hospital_ref": "hosp082504",
+      "pat_hospital_ref": "hosp082511",
       "pat_title": "Mr",
-      "pat_firstname": "DemoAppCD",
+      "pat_firstname": "DemoAppACA",
       "pat_surname": "Riomed",
       "pat_sex": "M",
       "pat_dob": "22/09/2023",
@@ -53,7 +53,7 @@
     {
       "pat_hospital_ref": "AutoHosp109",
       "pat_title": "B/O",
-      "pat_firstname": "DemoAppCD",
+      "pat_firstname": "DemoAppACA",
       "pat_surname": "Riomed",
       "pat_sex": "M",
       "pat_dob": "22/09/2023",
@@ -84,7 +84,7 @@
   ],
   "patientIdentifier": [
     {
-      "pat_firstname": "DemoAppCD",
+      "pat_firstname": "DemoAppACA",
       "pat_lastname": "Riomed",
       "pat_sex": "M",
       "pat_dob": "22/09/2023",
@@ -93,7 +93,7 @@
       "pat_country": "India",
       "pat_title": "B/O",
       "pat_middlename": "Martin",
-      "add_email": "DemoAppCD.Riomed@Gmail.com"
+      "add_email": "DemoAppACA.Riomed@Gmail.com"
     }
   ],
   "tempAddress": [
@@ -218,7 +218,7 @@
       "ReferralReason": "In Patient",
       "ref_referral_mode": "Email",
       "cli_name": "General Medicine Automation",
-      "ref_clinic_type": "General Medicine",
+      "ref_clinic_type": "Cardiology Clinic",
       "ref_clinic_location": "Cath Lab Location",
       "ref_region_eli_text": "HP Region1",
       "ref_preferred_examiner_sex_entry": "Male",
@@ -254,8 +254,8 @@
   ],
   "addEditAppointments": [
     {
-      "rea_date": "12/08/2025",
-      "rea_edited_date": "12/08/2025",
+      "rea_date": "26/08/2025",
+      "rea_edited_date": "26/08/2025",
       "rea_time": "10:30:00",
       "rea_edited_time": "09:45 AM",
       "convertedTime": "10:30 AM",
@@ -280,9 +280,9 @@
   ],
   "bookNewAppointments": [
     {
-      "rea_date": "12/08/2025",
-      "rea_time": "09:00:00",
-      "convertedTime": "09:00 AM",
+      "rea_date": "26/08/2025",
+      "rea_time": "06:00:00",
+      "convertedTime": "06:00 AM",
       "rea_status": "scheduled",
       "rea_notes": "AddTesting Notes",
       "rea_duration": 15,
@@ -296,14 +296,14 @@
       "rea_reason_for_delay": "Appointment offered within 48 hours - declined by patient",
       "rea_region_eli_text": "HP Region1",
       "rea_patient_type": "Regular",
-      "rea_end_time": "09:15:00",
+      "rea_end_time": "06:15:00",
       "rea_special": "All Specialties",
       "rea_hp_name_link": "Mr Manoj Automation"
     }
   ],
   "CancelBookAppointment": [
     {
-      "rea_date": "12/08/2025",
+      "rea_date": "26/08/2025",
       "rea_time": "11:30:00",
       "convertedTime": "11:30 AM",
       "rea_status": "cancelled",
@@ -327,7 +327,7 @@
   ],
   "nextAvailAppointments": [
     {
-      "rea_date": "12/08/2025",
+      "rea_date": "26/08/2025",
       "rea_edited_date": "02/12/2023",
       "rea_time": "09:00:00",
       "convertedTime": "09:00 AM",
@@ -366,13 +366,13 @@
       "prv_record_status": "approved",
       "prv_created_by": "thayne.auto",
       "prv_region_eli_text": "All Teams",
-      "prv_speciality_eli_text": "Cardiology"
+      "prv_speciality_eli_text": "General Medicine"
     }
   ],
   "rescheduleAppointments": [
     {
-      "rea_date": "12/08/2025",
-      "rea_edited_date": "12/08/2025",
+      "rea_date": "26/08/2025",
+      "rea_edited_date": "26/08/2025",
       "rea_time": "11:45:00",
       "rea_edited_time": "15:15:00",
       "convertedTime": "11:45 AM",
@@ -428,7 +428,7 @@
       "rea_clinic_type_eli_id": 6903,
       "rea_region_eli_id": 6910,
       "rea_region_eli_text": "HP Region1",
-      "rea_updated": "12/08/2025",
+      "rea_updated": "26/08/2025",
       "rea_updated_by": "thayne.auto",
       "rea_patient_type": "Regular",
       "rea_end_time": "07:35:00"
@@ -518,7 +518,7 @@
     {
       "ars_record_status": "wrong",
       "aps_record_status": "wrong",
-      "aps_deleted": "12/08/2025",
+      "aps_deleted": "26/08/2025",
       "aps_deleted_by": "thayne.auto",
       "aps_end_date": "30/05/2025"
     }
