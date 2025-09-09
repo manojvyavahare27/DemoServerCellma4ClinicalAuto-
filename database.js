@@ -10,12 +10,12 @@ const dbConfig = {
     // database: "cellma4_api",
     // connectionLimit: 10
 
-    host: "10.0.0.16",
-    user: "cellma4_api_user",
+   host: "10.0.0.72",
+    user: "Manoj.vyavahare",
     password: "Welcome@123",
     port:3314,
     //database: "cellma4_api",
-    database: "cellma4_pre_release",
+    database: "cellma4_loadtesting_9sep25",
     connectionLimit: 10
 };
 
