@@ -308,6 +308,7 @@ test.describe('New Patient', () => {
       await page.waitForTimeout(1000);
       //await expect(page.getByText("Patient interested party details added successfully")).toHaveText("Patient interested party details added successfully");
 
+     
       //View PIP
 
       await viewpip.clickOnViewPIPLink();
@@ -417,7 +418,7 @@ await expect(page.getByText('Patient photo uploaded successfully')).toHaveText('
 
       await addpatient.clickOnsavebutton();
 
-
+      await page.pause()
       //await menu.clickOnMenubtn();
       // await menu.clickOnLogout();
 
