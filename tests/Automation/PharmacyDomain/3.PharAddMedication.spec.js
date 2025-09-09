@@ -210,7 +210,7 @@ test.describe("Medications Category", () => {
       await MedicationsExtraDetails.selectCurrentLocation(jsonData.AddMedication[index].pcl_location_name)      
       await MedicationsExtraDetails.selectAdherent(jsonData.AddMedication[index].meded_value_Adherent)
       await MedicationsExtraDetails.clickOnPrescribeAndSupply()
-      await MedicationsExtraDetails.clickOnSuitableForDelivery()
+     // await MedicationsExtraDetails.clickOnSuitableForDelivery()
       await MedicationsExtraDetails.clickOnAddToPrescribe()
       await MedicationsExtraDetails.clickOnSupply()
       await MedicationsExtraDetails.clickOnSetAsDefault()
