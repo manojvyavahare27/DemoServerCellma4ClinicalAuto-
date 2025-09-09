@@ -430,7 +430,10 @@ await page.waitForTimeout(200)
 
       //await menu.clickOnMenubtn();
       // await menu.clickOnLogout();
+await page.waitForTimeout(2000);     
+      await addpatient.enterHospitalRef(jsonData.addPatient[index].pat_hospital_ref)
 
+      await addpatient.clickOnsavebutton();
       //////// Patient Detail comparison/////////
       var sqlQuery = "select * from patients where pat_hospital_ref= '" + data.pat_hospital_ref +
         "' order by pat_id desc limit 1";
