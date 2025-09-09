@@ -315,7 +315,7 @@ test.describe('New Patient', () => {
       await viewpip.clickOnCloseViewPopup();
       await viewpip.clickOnNextbntViewPIP();
 
-      await page.pause()
+      
       //Search GP      
       await addgp.clickOnSearchGPBtn();
       await expect(page.getByText("Local GP found")).toHaveText("Local GP found");
@@ -419,7 +419,7 @@ await expect(page.getByText('Patient photo uploaded successfully')).toHaveText('
 
       await addpatient.clickOnsavebutton();
 
-      await page.pause()
+      
       //await menu.clickOnMenubtn();
       // await menu.clickOnLogout();
 
