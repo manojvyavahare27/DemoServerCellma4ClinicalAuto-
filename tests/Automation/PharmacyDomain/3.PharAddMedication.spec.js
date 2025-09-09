@@ -215,7 +215,7 @@ test.describe("Medications Category", () => {
       await MedicationsExtraDetails.clickOnSupply()
       await MedicationsExtraDetails.clickOnSetAsDefault()
       await MedicationsExtraDetails.clickOnRepeatable()
-      await MedicationsExtraDetails.clickOPrivateRecord()  
+      //await MedicationsExtraDetails.clickOPrivateRecord()  
       await MedicationsExtraDetails.selectEndoserment(jsonData.AddMedication[index].paprd_endorsement) 
       await MedicationsExtraDetails.enterPriceCheckQuantity(jsonData.AddMedication[index].meded_value_Price_check_quantity)  
       await MedicationsExtraDetails.enterClinicalItemNotes(jsonData.AddMedication[index].medi_notes) 
