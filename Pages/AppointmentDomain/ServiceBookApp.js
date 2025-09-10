@@ -106,7 +106,7 @@ class ServiceBookApp {
     this.txtboxNotes = page.getByTestId("Notes");
 
    // this.btnSaveAndBookbTodaysDate = page.locator("xpath=//button[@data-testid='Save And Book Today's Date']");
-   this.btnSaveAndBookbTodaysDate = page.locator("xpath=//button[@data-testid=\"Save And Book Today's Date\"]");
+   this.btnSaveAndBookbTodaysDate = page.locator("xpath=//button[@data-testid='Save and Book Appointment']");
 
 
     //Communication Consent
@@ -401,7 +401,7 @@ class ServiceBookApp {
   }
 
   async SelectDate(rea_date) {
-    const months = ["January","February","March","April","May","June","July","August","Sep","Oct","Nov","Dec"];
+    const months = ["January","February","March","April","May","June","July","August","September","Oct","Nov","Dec"];
     const values = rea_date.split('/');
     const date = new Date(values[2],values[1]-1,values[0]);
     let day = date.getDate()
