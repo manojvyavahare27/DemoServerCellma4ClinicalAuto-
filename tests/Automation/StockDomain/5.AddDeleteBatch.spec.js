@@ -101,9 +101,9 @@ test.describe("Database Comparison Add New Referral", () => {
    await addBatch.enterExpiryDate(jsonData.AddBatch[0].stbat_expiry_date)
    await addBatch.enterRetailPrice(jsonData.AddBatch[0].stbat_retail_price)
    
-    await page.waitForTimeout(500) 
+   
    await addBatch.clickSave()
-   await page.waitForTimeout(500) 
+  
    //await addFormulary.clickOnAddFormularyButton()
    await expect(page.getByText('Batch added successfully')).toHaveText('Batch added successfully')
    //await addFormulary.clickOnClosePopup()
