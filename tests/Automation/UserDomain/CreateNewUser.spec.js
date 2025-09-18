@@ -95,7 +95,7 @@ test.describe("Database Comparison Add New User", () => {
 
         await usersearch.enterUserSearch(jsonData.createUser[index].use_username_old)
         await usersearch.clickOnSearchButton()
-        await page.pause()
+        
         await usersearch.clickOnViewLink()
         await hpdiary.clickOnBackButton()
         await usersearch.enterUserSearch(jsonData.createUser[index].use_username_old)
@@ -110,7 +110,7 @@ test.describe("Database Comparison Add New User", () => {
         await usersearch.enterConfirmPassword(jsonData.createUser[index].use_password)
         await usersearch.clickOnSavePasswordBtn()
         await expect(page.getByText('Password has been changed successfully')).toHaveText('Password has been changed successfully')
-        await page.pause()
+       
         //Search User
         await usersearch.enterUserSearch(jsonData.createUser[index].use_username)
         await usersearch.enterGivenName(jsonData.createUser[index].use_firstname)
@@ -260,7 +260,7 @@ await fileInput.setInputFiles(targetFilePath);
 
         // Create By: Manoj V.
         // Date:30/05/2023
-        //await page.pause()
+        
         await adduserwizard.toggleUserIsHP()
         await adduserwizard.toggleHPOnDiary()
         await adduserwizard.enterInitial(jsonData.createEstProfessional[index].esp_initials)
@@ -313,7 +313,7 @@ await fileInput.setInputFiles(targetFilePath);
         await sethpdairy.clickOnHpStartDate(jsonData.setHpDiary[index].hpd_start_date)
         await page.waitForTimeout(2000)
         await sethpdairy.clickOnHpEndDate(jsonData.setHpDiary[index].hpd_end_date)
-       
+      
        await page.waitForTimeout(1000)
         await sethpdairy.selectWorkingDays()
         await page.waitForTimeout(2000)
