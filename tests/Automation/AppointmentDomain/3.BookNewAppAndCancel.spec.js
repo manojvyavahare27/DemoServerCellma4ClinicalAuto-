@@ -105,7 +105,7 @@ test.describe("Database Comparison Book New App and Cancel", () => {
      await patientsearch.enterGivenName(jsonData.addPatient[index].pat_firstname)
      await patientsearch.enterFamilyName(jsonData.addPatient[index].pat_surname)
      await patientsearch.selectSex(jsonData.addPatient[index].pat_sex)  
-     await page.pause()
+    
      //await patientsearch.enterHospitalRef(jsonData.addPatient[index].pat_hospital_ref)
     
      //await patientsearch.selectBornDate()
@@ -150,7 +150,7 @@ test.describe("Database Comparison Book New App and Cancel", () => {
      //await expect(page.getByText('Referral added successfully')).toHaveText('Referral added successfully')
      await addreferral.clickOnBackButton()     
           await page.waitForTimeout(2000);
-          await page.pause()
+          
           // await page.getByRole('button', { name: 'Add Appointments' }).click()
           await servicebookapp.SelectDate(jsonData.bookNewAppointments[index].rea_date)
           await page.waitForTimeout(2000);
@@ -325,7 +325,7 @@ test.describe("Database Comparison Book New App and Cancel", () => {
           await servicebookapp.enterNotes(jsonData.bookNewAppointments[index].rea_notes)    
           await servicebookapp.clickOnSaveAndBookbTodaysDateButton()
 
-          await page.pause()
+         
           //Communication Consent
           await servicebookapp.selectCommConsentNo()
           await servicebookapp.clikcOnRadioAllNo()

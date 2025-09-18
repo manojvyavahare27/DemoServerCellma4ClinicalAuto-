@@ -111,7 +111,7 @@ test.describe("Database Comparison Add Edit Patient", () => {
     //   jsonData.addPatient[index].pat_hospital_ref
     // );
 
-    await page.pause()
+ 
     await patientsearch.clickOnSearchPatButton();
     await patientsearch.clickOnSearchPatientLink();
     await page.waitForTimeout(5000);
@@ -274,7 +274,7 @@ test.describe("Database Comparison Add Edit Patient", () => {
       await scheduleserviceapp.clickOnDateLink();
       await page.waitForTimeout(7000);
       await addeditpatientappointment.selectConsultant();
-      await page.pause()
+      
       // await addeditpatientappointment.selectAppointmentDuration(jsonData.addEditAppointments[index].rea_duration);
        await addeditpatientappointment.selectAppointmentDuration();
       await addeditpatientappointment.clickOnRescheduleDate(jsonData.addEditAppointments[index].rea_edited_date);
