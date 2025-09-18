@@ -122,6 +122,7 @@ test.describe("Database Comparison Edit HP Diary", () => {
         await sethpdairy.clickOnRepeatSchedule()
         // await sethpdairy.closeRepeatSchedulePopupPage()
         // await sethpdairy.clickOnRepeatSchedule()
+       
         await page.waitForTimeout(2000)
         await sethpdairy.enterRepeatScheduleEndDate(jsonData.editHpDiary[index].RepeatScheduleEndDate)
         await sethpdairy.clickOnSaveForRepeatSchedule()
@@ -251,7 +252,7 @@ test.describe("Database Comparison Edit HP Diary", () => {
             console.log('Database connection closed manually.');
         }
     }
-      await menu.clickOnLogout(page);
+      //await menu.clickOnLogout(page);
         
     });
 
