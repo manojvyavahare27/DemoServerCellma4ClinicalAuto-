@@ -72,7 +72,7 @@ test.describe("Database Comparison Add List Item", () => {
     await loginpage.enter_Password(jsonData.loginDetails[0].password);
     await page.waitForTimeout(1500);
     await loginpage.clickOnLogin();
-    await page.pause()
+    
     await homepage.clickonSidebarHomeIcon();
 
     await homepage.clickOnUserIcon();
@@ -118,6 +118,7 @@ test.describe("Database Comparison Add List Item", () => {
       "List item added successfully"
     );
 
+    await page.pause()
     var sqlQuery ="select * from establishment_list_items where eli_text = '" +
       jsonData.addListItem[index].eli_text +"' and eli_app_id = 228 order by eli_id desc limit 1";
     console.log(sqlQuery);

@@ -545,7 +545,7 @@ await fileInput.setInputFiles(targetFilePath);
         }
     }
 
-      await menu.clickOnLogout();
+      await menu.clickOnLogout(page);
         
     });
 });
