@@ -210,6 +210,7 @@ test.describe("Patient Domain Db Comparison", () => {
         await page.waitForTimeout(1000)
         await editpatient.clickOnExportToPDFLink()
         await page.waitForTimeout(1000)
+        await page.pause()
         await editpatient.clickOnCloseInterestedPartyPopup()
         await editpatient.clickOnPatientGP()
         await editpatient.clickOnPrintIdCard()
