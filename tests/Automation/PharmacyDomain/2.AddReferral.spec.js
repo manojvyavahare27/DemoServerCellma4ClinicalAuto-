@@ -163,7 +163,7 @@ test.describe("Patient Domain Db COmparison", () => {
     await confirmexisting.clickOnSaveChangeDetails();
     await expect(page.getByText("Patient details changed successfully")).toHaveText("Patient details changed successfully");
 
-    await page.pause()
+   
     ////////// Patient Referral comparison/////////
     var sqlQuery ="select * from patients where pat_hospital_ref= '" + jsonData.addPatient[index].pat_hospital_ref +
       "' and pat_firstname='"+ jsonData.addPatient[index].pat_firstname+"' order by pat_id desc limit 1";
@@ -175,7 +175,7 @@ test.describe("Patient Domain Db COmparison", () => {
 
     const patId = results[0].pat_id;
     console.log("Patient id is:" + patId);
-      await page.pause()
+      
     sqlQuery =
       "select * from referrals join referral_treatment_target_times on rtt_ref_id = ref_id where ref_pat_id ='" +
       patId +

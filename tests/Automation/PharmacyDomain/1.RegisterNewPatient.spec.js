@@ -380,7 +380,7 @@ test.describe('Excel Conversion', () => {
         await page.waitForTimeout(2000);
        // await page.pause();
         await page.getByLabel('profileIcon').click();
-        //await page.getByText('Logout').click();
+        await page.getByText('Logout').click();
        
         //await menu.clickOnMenubtn();
         //await menu.clickOnLogout();
