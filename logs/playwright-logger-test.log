@@ -9920,3 +9920,8 @@
 {"level":"info","message":"Clicked on Search button successfully","timestamp":"2025-09-09T14:59:01.006Z"}
 {"level":"info","message":"Given Name entered successfully","timestamp":"2025-09-09T14:59:01.512Z"}
 {"level":"info","message":"Family Name entered successfully","timestamp":"2025-09-09T14:59:03.191Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2025-09-18T16:03:50.227Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2025-09-18T16:03:52.226Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2025-09-18T16:03:52.662Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2025-09-18T16:04:05.645Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2025-09-18T16:04:07.200Z"}
