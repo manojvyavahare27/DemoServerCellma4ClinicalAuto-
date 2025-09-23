@@ -94,7 +94,7 @@ test.describe("Database Comparison Add New Referral", () => {
     // await addpatient.enterHospitalRef(
     //   jsonData.addPatient[index].pat_hospital_ref
     // );
-    await page.pause()
+    
     await patientsearch.clickOnSearchButton();
     await patientsearch.clickOnSearchPatientLink();
     //await patientsearch.ClickOnYesConfirmLegitimateRelationship()
@@ -114,7 +114,7 @@ test.describe("Database Comparison Add New Referral", () => {
     await confirmexisting.clickOnConfirmExistingDetails();
 
     
-    await page.pause()
+    
     // await addreferral.enterReceiveReferrldate(jsonData.AddReferral[index].rtt_referral_received_date.toString());
     // await addreferral.enterApproveReferralDate(jsonData.AddReferral[index].rtt_referral_approved_date.toString());
     await addreferral.enterDateOfReferral(jsonData.AddReferral[index].ref_referral_date.toString());
