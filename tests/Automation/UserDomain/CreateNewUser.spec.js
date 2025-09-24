@@ -243,7 +243,7 @@ await fileInput.setInputFiles(targetFilePath);
         await adduserwizard.enterUserExpireDate(jsonData.createUser[index].use_expires)
         await adduserwizard.selectProfession(jsonData.createUser[index].use_profession)
         await adduserwizard.enterMCRNNumber(jsonData.createUser[index].use_mcrn_number.toString())
-        
+        await page.pause()
         //await adduserwizard.selectUserStatus()
         //await adduserwizard.selectResetPassword()    
         //Add user group pop up details
