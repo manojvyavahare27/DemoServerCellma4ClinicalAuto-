@@ -4,7 +4,7 @@ const fs = require('fs');
 // MySQL database configuration
 const dbConfig = {
     host: "10.0.0.72",
-    user: "Manoj.Vyavahare",
+    user: "Manoj.vyavahare",
     password: "Welcome@123",
     port:3314,
     //database: "cellma4_api",
