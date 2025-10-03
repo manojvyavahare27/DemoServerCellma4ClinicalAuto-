@@ -243,7 +243,7 @@ await fileInput.setInputFiles(targetFilePath);
         await adduserwizard.enterUserExpireDate(jsonData.createUser[index].use_expires)
         await adduserwizard.selectProfession(jsonData.createUser[index].use_profession)
         await adduserwizard.enterMCRNNumber(jsonData.createUser[index].use_mcrn_number.toString())
-        await page.pause()
+        
         //await adduserwizard.selectUserStatus()
         //await adduserwizard.selectResetPassword()    
         //Add user group pop up details
@@ -279,7 +279,7 @@ await fileInput.setInputFiles(targetFilePath);
         await adduserwizard.selectPROMsReason()
         await adduserwizard.selectLocal()
         await adduserwizard.selectCommissionLevel(jsonData.createEstProfessional[index].esp_commision_level)      
-       
+       await page.pause()
         //await adduserwizard.enterPROMsNumber(jsonData.createEstProfessional[index].esp_hp_proms_code)    
         await adduserwizard.clickOnSave()
         await expect(page.getByText('User Already Exists')).toHaveText('User Already Exists') 
