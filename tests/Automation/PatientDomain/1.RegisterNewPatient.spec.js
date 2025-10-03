@@ -92,6 +92,7 @@ test.describe('New Patient', () => {
       await loginpage.clickOnLogin();
       logger.info("Clicked on Login button successfully");
       await homepage.clickonSidebarHomeIcon()
+      await page.pause()
       await homepage.clickOnPatientIcon();
       logger.info("Clicked on Patient Icon successfully");
       await patientsearch.clickOnSearchButton();
