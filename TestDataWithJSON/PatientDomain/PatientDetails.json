@@ -1,6 +1,10 @@
 {
   "loginDetails": [
     {
+      "username": "manoj.auto",
+      "password": "Manoj@2025"
+    },
+    {
       "username": "cellma.user",
       "password": "Manoj@2024"
     },
