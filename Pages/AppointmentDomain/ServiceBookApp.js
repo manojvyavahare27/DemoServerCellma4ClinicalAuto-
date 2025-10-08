@@ -401,7 +401,7 @@ class ServiceBookApp {
   }
 
   async SelectDate(rea_date) {
-    const months = ["January","February","March","April","May","June","July","August","September","Oct","Nov","Dec"];
+    const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
     const values = rea_date.split('/');
     const date = new Date(values[2],values[1]-1,values[0]);
     let day = date.getDate()
