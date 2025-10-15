@@ -9940,3 +9940,8 @@
 {"level":"info","message":"Clicked on Search button successfully","timestamp":"2025-10-03T04:07:41.705Z"}
 {"level":"info","message":"Given Name entered successfully","timestamp":"2025-10-03T04:07:42.660Z"}
 {"level":"info","message":"Family Name entered successfully","timestamp":"2025-10-03T04:07:44.373Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2025-10-15T06:53:48.140Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2025-10-15T06:53:52.674Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2025-10-15T06:53:57.453Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2025-10-15T06:53:58.022Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2025-10-15T06:53:59.163Z"}
