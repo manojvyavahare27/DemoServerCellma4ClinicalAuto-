@@ -34,8 +34,6 @@ class AddPIP
         this.chkbox_BeingPhotographed=page.getByRole('checkbox', { name: 'Being photographed or videoed for on-going training and teaching purposes' })
         this.chkbox_GeneralPublicity=page.getByRole('checkbox', { name: 'For use on the Automation Est website and general publicity' })
         this.btnSavePIP=page.getByTestId('Save')
-
-
     }
     async ClickOnSavePIP()
     {

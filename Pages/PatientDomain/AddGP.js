@@ -15,7 +15,8 @@ class AddGP
         this.txtbox_GPGMCCode=page.getByTestId('GMC Code')
        this.btnShowGP=page.locator("xpath=//input[@name='show']")
         //this.dropdown_UnknownPostcode=page.locator("xpath=//div[@aria-labelledby='mui-component-select-unknownNoFixedAbodeorOverseasVisitor']")
-        this.dropdown_UnknownPostcode=page.locator("xpath=//div[@data-testid='Unknown, No Fixed Abode, or Overseas Visitor']")
+       // this.dropdown_UnknownPostcode=page.locator("xpath=//div[@data-testid='Unknown, No Fixed Abode, or Overseas Visitor']")
+         this.dropdown_UnknownPostcode=page.locator("xpath=//input[@id='unknownNoFixedAbodeorOverseasVisitor']")
         //GP Contact Details
         //GP Contact Details
         this.txtbox_GPPhone=page.locator("xpath=//input[@data-testid='GP Phone']")
