@@ -20,7 +20,7 @@ class EditPatient
 
         this.btn_PatientPIPExportList=page.getByTestId('Export List')
         //this.link_ViewPIP=page.getByTestId('View')
-        this.link_ViewPIP=page.getByLabel('SearchSearch TitleGiven').getByTestId('View')
+        this.link_ViewPIP=page.locator("xpath=//a[@data-testid='View']")
         this.txtbox_SearchGP=page.getByTestId('Search')
         this.btn_ClosePIPAddPopup=page.getByTestId('CancelIcon')
         this.btn_ClosePIPAddressPopup=page.getByTestId('CancelIcon')
@@ -59,13 +59,13 @@ class EditPatient
 
         this.dropdown_CurrentlyPregnant=page.getByTestId('Currently Pregnant').getByRole('button', { name: '​' })
         this.txtbox_CountyOfBirth=page.getByTestId('County Of Birth')
-        this.dropdown_Sex=page.getByTestId('Sex').getByRole('button', { name: '​' })
-        this.dropdown_Ethnicity=page.locator("xpath=//div[@id='mui-component-select-patEthnicityText']")
-        this.dropdown_Religion=page.locator("xpath=//div[@id='mui-component-select-patReligion']")
-        this.dropdown_SexualOrientation=page.locator("xpath=//div[@id='mui-component-select-patSexualOrientationEliId']")
+        this.dropdown_Sex=page.locator("xpath=//input[@id='sex']")
+        this.dropdown_Ethnicity=page.locator("xpath=//input[@id='ethnicity']")
+        this.dropdown_Religion=page.locator("xpath=//input[@id='religion']")
+        this.dropdown_SexualOrientation=page.locator("xpath=//input[@id='sexualOrientation']")
         this.dropdown_CurrentlyPregnant=page.getByTestId('Currently Pregnant').getByRole('button', { name: '​' })
         this.dropdown_PrimaryDisablity=page.getByTestId('Primary Disability').getByRole('button', { name: '​' })
-        this.dropdown_Prisoner=page.locator("xpath=//div[@aria-labelledby='mui-component-select-patPrisoner']")
+        this.dropdown_Prisoner=page.locator("xpath=//input[@id='prisoner']")
 
         //Edit Patient Add PIP
         this.btn_AddInterestedParties=page.getByTestId('Add Interested Party')

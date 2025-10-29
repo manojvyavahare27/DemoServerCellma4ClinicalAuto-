@@ -106,6 +106,7 @@ test.describe("Patient Domain Db Comparison", () => {
         // await patientsearch.ClickOnYesConfirmLegitimateRelationship()
         await patientsearch.clickOnBackbuttonOnPatientSearch()
         await page.waitForTimeout(3000)
+        
         //await confirmexisting.clickOnConfirmExistingDetails()
 
         await topbluebar.clickOnBannerButtonKeyboardArrow()
@@ -140,7 +141,7 @@ test.describe("Patient Domain Db Comparison", () => {
 
         await demogrphics.ClickOnLinkLinks()
         await demogrphics.ClickOnLinkTest()
-        await demogrphics.SelectDropdownTestPatient()
+        await demogrphics.ClickOnCloseAllPopup()
         //await expect(page.getByText('Successfully marked patient as test patient')).toHaveText('Successfully marked patient as test patient')
 
         await topbluebar.clickOnBannerButtonKeyboardArrow()
@@ -191,7 +192,7 @@ test.describe("Patient Domain Db Comparison", () => {
         // await expect(page.getByText('Patient address added successfully')).toHaveText('Patient address added successfully')
         await editpatient.clickOnPatientPIP()
         //await page.pause()
-        await editpatient.enterIntoSearchGP('Wednesday')
+        //await editpatient.enterIntoSearchGP('Wednesday')
 
         await editpatient.clickOnViewPIPLink()
 
