@@ -14,10 +14,8 @@ class AddGP
         this.txtbox_GPPracticeCode=page.getByTestId('Practice Code')
         this.txtbox_GPGMCCode=page.getByTestId('GMC Code')
        this.btnShowGP=page.locator("xpath=//input[@name='show']")
-        //this.dropdown_UnknownPostcode=page.locator("xpath=//div[@aria-labelledby='mui-component-select-unknownNoFixedAbodeorOverseasVisitor']")
        // this.dropdown_UnknownPostcode=page.locator("xpath=//div[@data-testid='Unknown, No Fixed Abode, or Overseas Visitor']")
-         this.dropdown_UnknownPostcode=page.locator("xpath=//input[@id='unknownNoFixedAbodeorOverseasVisitor']")
-        //GP Contact Details
+        this.dropdown_UnknownPostcode=page.locator("xpath=//input[@id='unknownNoFixedAbodeorOverseasVisitor']")
         //GP Contact Details
         this.txtbox_GPPhone=page.locator("xpath=//input[@data-testid='GP Phone']")
         this.txtbox_GPFax=page.locator("xpath=//input[@data-testid='Fax']")
@@ -35,6 +33,8 @@ class AddGP
         this.txtbox_GPCounty=page.getByTestId('County')
         this.txtbox_GpAddressPostCode=page.getByTestId('Postcode')
 
+
+
         //Add GP To Patient
         this.txtbox_GPFullName=page.locator("xpath=//input[@id='Search']")
         //this.btn_PersonAdd=page.getByRole('button', { name: 'personAdd' })
@@ -42,10 +42,11 @@ class AddGP
        this.btn_PersonAdd=page.getByLabel('personAdd')
        
                                 
-        this.btnNextonSearchGP=page.locator("xpath=//button[@data-testid='Next']")
+        this.btnNextonSearchGP=page.getByTestId('Next')
    
         //Search GP
-        this.txtbox_SearchGP=page.locator("xpath=//input[@data-testid='Search']")
+        //this.txtbox_SearchGP=page.locator("xpath=//input[@data-testid='Search']")
+        this.txtbox_SearchGP=page.locator("xpath=//input[@id='localGpTable']")
 
     }
     async enterGpSearch()

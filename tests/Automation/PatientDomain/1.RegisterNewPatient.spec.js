@@ -108,7 +108,9 @@ test.describe('New Patient', () => {
       await patientsearch.selectBornDate(jsonData.addPatient[index].pat_dob);
       //await patientsearch.selectBornDate(formattedDate);
      // await page.pause();
-      await patientsearch.clickOnSearchButton();
+
+      await page.pause();
+ patientsearch.clickOnSearchButton();
       await patientsearch.clickOnAddPatientbutton();
       await patientduplicatecheck.clickOnDuplicateCheckButton();
       await expect(page.getByText("Photo Identification required")).toHaveText("Photo Identification required");
