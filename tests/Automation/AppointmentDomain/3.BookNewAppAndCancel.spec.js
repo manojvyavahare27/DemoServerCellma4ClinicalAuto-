@@ -104,9 +104,9 @@ test.describe("Database Comparison Book New App and Cancel", () => {
      await homepage.clickOnAppointmentIcon()   
       await homepage.clickOnDrawerHeader()
     await homepage.clickOnAddAppointmentlink() 
-     await page.pause()
+    // await page.pause()
      await patientsearch.clickOnSearchPatButton()
-     await page.pause()
+     //await page.pause()
      await expect(page.getByText('At least one search field should be set for a search.')).toHaveText('At least one search field should be set for a search.')
      await page.waitForTimeout(1000);
      await patientsearch.enterGivenName(jsonData.addPatient[index].pat_firstname)
@@ -114,12 +114,12 @@ test.describe("Database Comparison Book New App and Cancel", () => {
      await patientsearch.selectSex(jsonData.addPatient[index].pat_sex)  
     
      //await patientsearch.enterHospitalRef(jsonData.addPatient[index].pat_hospital_ref)
-    await page.pause()
+    //await page.pause()
      //await patientsearch.selectBornDate()
      await patientsearch.clickOnSearchPatButton()
      //await expect(page.getByText('Patient list found')).toHaveText('Patient list found') 
      await patientsearch.clickOnSearchPatientLink()   
-     await page.pause()
+     //await page.pause()
      //await patientsearch.ClickOnYesConfirmLegitimateRelationship()
      await page.waitForTimeout(5000);    
      await confirmexisting.clickOnConfirmExistingDetails()
