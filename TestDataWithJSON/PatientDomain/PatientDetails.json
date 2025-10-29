@@ -31,15 +31,9 @@
   ],
   "addPatient": [
     {
-<<<<<<< HEAD
-      "pat_hospital_ref": "hospDemoPt27",
+      "pat_hospital_ref": "hospDemoPt33",
       "pat_title": "Mr",
-      "pat_firstname": "demoAM",
-=======
-      "pat_hospital_ref": "hospDemoPt31",
-      "pat_title": "Mr",
-      "pat_firstname": "demoAQQ",
->>>>>>> e1a280a (Push all code)
+      "pat_firstname": "demoARB",
       "pat_surname": "riomed",
       "pat_sex": "M",
       "pat_dob": "01/01/2000",
@@ -57,11 +51,7 @@
       "pat_currently_pregnant_yes": "No",
       "pat_currently_pregnant": 0,
       "pat_language": "English",
-<<<<<<< HEAD
-      "pat_temp_address_start": 45944,
-=======
       "pat_temp_address_start": 45959,
->>>>>>> e1a280a (Push all code)
       "pat_country_of_birth": "India",
       "pat_gender_at_birth": "M",
       "pat_nationality": "Indian",
@@ -76,11 +66,7 @@
     {
       "pat_hospital_ref": "AutoHosp109",
       "pat_title": "B/O",
-<<<<<<< HEAD
-      "pat_firstname": "demoAM",
-=======
-      "pat_firstname": "demoAQQ",
->>>>>>> e1a280a (Push all code)
+      "pat_firstname": "demoARB",
       "pat_surname": "riomed",
       "pat_sex": "M",
       "pat_dob": "01/01/2000",
@@ -111,11 +97,7 @@
   ],
   "patientIdentifier": [
     {
-<<<<<<< HEAD
-      "pat_firstname": "demoAM",
-=======
-      "pat_firstname": "demoAQQ",
->>>>>>> e1a280a (Push all code)
+      "pat_firstname": "demoARB",
       "pat_lastname": "riomed",
       "pat_sex": "M",
       "pat_dob": "01/01/2000",
@@ -124,11 +106,7 @@
       "pat_country": "India",
       "pat_title": "B/O",
       "pat_middlename": "Martin",
-<<<<<<< HEAD
-      "add_email": "demoAM.riomed@Gmail.com"
-=======
-      "add_email": "demoAQQ.riomed@Gmail.com"
->>>>>>> e1a280a (Push all code)
+      "add_email": "demoARB.riomed@Gmail.com"
     }
   ],
   "tempAddress": [
@@ -470,20 +448,12 @@
   ],
   "patDetails": [
     {
-<<<<<<< HEAD
-      "pat_hospital_ref": "hospDemoPt27",
-=======
-      "pat_hospital_ref": "hospDemoPt31",
->>>>>>> e1a280a (Push all code)
+      "pat_hospital_ref": "hospDemoPt33",
       "pat_dod": "29/10/2023",
       "pat_tod": "00:11",
       "pat_dead_confirmation_status": "confirmed",
       "pat_death_notes": "Added For Testing",
-<<<<<<< HEAD
-      "pat_firstname": "demoAM",
-=======
-      "pat_firstname": "demoAQQ",
->>>>>>> e1a280a (Push all code)
+      "pat_firstname": "demoARB",
       "pat_surname": "riomed"
     }
   ],
