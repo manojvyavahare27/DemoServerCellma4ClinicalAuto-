@@ -3,7 +3,7 @@ class PatientDeath
     constructor(page)
     {
         this.page=page
-        this.txt_causeOfDeath=page.getByLabel('Search Immediate cause of Death *')
+         this.txt_causeOfDeath=page.getByLabel('Search Immediate cause of Death *')
         this.checkBox_Cryptosporidiosis=page.getByRole('option', { name: 'Cryptosporidiosis' }).getByRole('checkbox')
         this.checkBox_Candidiasis=page.getByRole('option', { name: 'Candidiasis', exact: true }).getByRole('checkbox')
         this.txtbox_CauseOfDeathWithCode=page.getByLabel('Search Immediate Cause of death code')
@@ -16,10 +16,10 @@ class PatientDeath
         
         //this.dropdown_MarkPatientAsDead=page.getByRole('button', { name: 'No' })
         this.dropdown_MarkPatientAsDead=page.locator("xpath=//div[@data-testid='Discharge and remove pending referrals from all services']")
-        this.checkbox_SearchAntecedentcauseofDeath=page.getByTestId('Search Antecedent cause of Death').getByLabel('Search Antecedent cause of Death')
+        this.checkbox_SearchAntecedentcauseofDeath=page.locator("xpath=//input[@id='otherCauseOfDeathType']")
 
         this.btn_Ok=page.getByTestId('Ok')
-        this.btn_SaveDeadPatient=page.getByTestId('Set')
+        this.btn_SaveDeadPatient=page.locator("xpath=//button[@data-testid='Set']")
         this.btn_ViewOnlyInReadOnly=page.getByTestId('View in Read Only Mode')
 
     }
