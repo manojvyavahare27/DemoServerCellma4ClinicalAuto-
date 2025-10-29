@@ -34,7 +34,7 @@ class ConfirmExisting
         this.txtbox_TempCompanyName=page.locator('#tempAddressCompanyName')
         this.txtbox_tempAddNumberNRoad=page.locator("xpath=//input[@name='tempAddAddress1']")
         this.txtbox_tempAddPostcode=page.locator("xpath=//input[@name='tempAddAddress5']")
-        this.btn_confirmExistingDetails=page.locator("xpath=//div[contains(text(),'Confirm Existing Details')]")
+        this.btn_confirmExistingDetails=page.locator("xpath=//button[@data-testid='Confirm Existing Details']")
         this.btn_SaveChangeDetails=page.locator("xpath=//div[contains(text(),'Save Changed Details')]")
 
     }
