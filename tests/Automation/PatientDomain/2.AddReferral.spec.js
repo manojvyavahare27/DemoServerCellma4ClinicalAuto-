@@ -17,7 +17,8 @@ import AddPatient from "../../../Pages/PatientDomain/AddPatient";
 import AddAddress from "../../../Pages/PatientDomain/AddAddress";
 import AddPIP from "../../../Pages/PatientDomain/AddPIP";
 import ViewPIP from "../../../Pages/PatientDomain/ViewPIP";
-import AddGP from "../../../Pages/PatientDomain/AddGP";
+//import AddGP from "../../../Pages/PatientDomain/AddGP";
+import AddGP from "../../../Pages/PatientDomain/AddGP"
 import PrintIDCard from "../../../Pages/PatientDomain/PrintIDCard";
 import ConfirmExisting from "../../../Pages/PatientDomain/ConfirmExisting";
 import TopBlueBar from "../../../Pages/BaseClasses/TopBlueBar";
