@@ -80,19 +80,22 @@ test.describe("Patient Domain Db COmparison", () => {
     await loginpage.enter_Password(jsonData.loginDetails[0].password);
     await page.waitForTimeout(2000);
     await loginpage.clickOnLogin();
-    await page.pause()
-    
+    await page.waitForTimeout(2000);
+    await homepage.clickonSidebarHomeIcon();
+    await page.waitForTimeout(2000);
     await homepage.clickOnPatientIcon();
     await patientsearch.clickOnSearchButton();
     await patientsearch.enterGivenName(jsonData.addPatient[index].pat_firstname.toString());
     await patientsearch.enterFamilyName(jsonData.addPatient[index].pat_surname.toString());
-     await page.pause()
+    
     await patientsearch.clickOnSearchButton();
-     await page.pause()
+   await page.pause()
     await patientsearch.clickOnSearchPatientLink();  
     await page.waitForTimeout(1500);
+      await page.pause()
     await confirmexisting.selectRelationship(jsonData.pip[index].pip_relationship);
     await page.waitForTimeout(1500);   
+    await page.pause()
     await confirmexisting.clickOnConfirmExistingDetails();
     //await page.pause()
     await page.waitForTimeout(1500);
