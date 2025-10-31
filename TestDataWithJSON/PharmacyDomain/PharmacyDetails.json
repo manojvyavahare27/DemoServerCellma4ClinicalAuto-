@@ -23,12 +23,12 @@
   ],
   "addPatient": [
     {
-      "pat_hospital_ref": "Phar14",
-      "pat_title": "B/O",
-      "pat_firstname": "TenCM",
-      "pat_surname": "Pharmacy",
+      "pat_hospital_ref": "hospDemoPt35",
+      "pat_title": "Mr",
+      "pat_firstname": "demoARD",
+      "pat_surname": "riomed",
       "pat_sex": "M",
-      "pat_dob": "22/09/2023",
+      "pat_dob": "01/01/2000",
       "pat_marital_status": "Single",
       "pat_ethnicity_text": "Indian",
       "pat_occupation": "Trainer",
@@ -43,7 +43,7 @@
       "pat_currently_pregnant_yes": "No",
       "pat_currently_pregnant": 0,
       "pat_language": "English",
-      "pat_temp_address_start": 45918,
+      "pat_temp_address_start": 45959,
       "pat_country_of_birth": "India",
       "pat_gender_at_birth": "M",
       "pat_nationality": "Indian",
@@ -58,10 +58,10 @@
     {
       "pat_hospital_ref": "AutoHosp109",
       "pat_title": "B/O",
-      "pat_firstname": "TenCM",
-      "pat_surname": "Pharmacy",
+      "pat_firstname": "demoARD",
+      "pat_surname": "riomed",
       "pat_sex": "M",
-      "pat_dob": "22/09/2023",
+      "pat_dob": "01/01/2000",
       "pat_marital_status": "Single",
       "pat_ethnicity_text": "Indian",
       "pat_occupation": "Trainer",
@@ -89,16 +89,16 @@
   ],
   "patientIdentifier": [
     {
-      "pat_firstname": "TenCM",
-      "pat_lastname": "Pharmacy",
+      "pat_firstname": "demoARD",
+      "pat_lastname": "riomed",
       "pat_sex": "M",
-      "pat_dob": "22/09/2023",
+      "pat_dob": "01/01/2000",
       "pid_value1": 8962845424,
       "pid_value2": "Ind009",
       "pat_country": "India",
       "pat_title": "B/O",
       "pat_middlename": "Martin",
-      "add_email": "TenCM.Pharmacy@Gmail.com"
+      "add_email": "demoARD.riomed@Gmail.com"
     }
   ],
   "tempAddress": [
@@ -440,13 +440,13 @@
   ],
   "patDetails": [
     {
-      "pat_hospital_ref": "Phar14",
+      "pat_hospital_ref": "hospDemoPt35",
       "pat_dod": "29/10/2023",
       "pat_tod": "00:11",
       "pat_dead_confirmation_status": "confirmed",
       "pat_death_notes": "Added For Testing",
-      "pat_firstname": "TenCM",
-      "pat_surname": "Pharmacy"
+      "pat_firstname": "demoARD",
+      "pat_surname": "riomed"
     }
   ],
   "patCauseOfDeath": [

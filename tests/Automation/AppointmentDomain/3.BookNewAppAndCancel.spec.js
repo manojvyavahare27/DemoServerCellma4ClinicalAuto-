@@ -85,7 +85,7 @@ test.describe("Database Comparison Book New App and Cancel", () => {
      await loginpage.clickOnLogin();
     // await expect(page.getByText("Login success")).toHaveText("Login success");
      await page.waitForTimeout(1000);
-     await page.pause()
+     
      await homepage.clickonSidebarHomeIcon()
      await homepage.clickOnAppointmentIcon()     
     // await patientsearch.clickonBackButton()
