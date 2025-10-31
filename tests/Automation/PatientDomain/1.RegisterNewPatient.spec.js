@@ -109,7 +109,7 @@ test.describe('New Patient', () => {
       //await patientsearch.selectBornDate(formattedDate);
      // await page.pause();
 
-      await page.pause();
+     
  patientsearch.clickOnSearchButton();
       await patientsearch.clickOnAddPatientbutton();
       await patientduplicatecheck.clickOnDuplicateCheckButton();
