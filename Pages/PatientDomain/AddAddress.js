@@ -24,7 +24,7 @@ class AddAddress
        // this.dropdown_Country=page.locator('#mui-component-select-country')
        
         //this.dropdown_Country=page.locator('input[name="country"]')
-        this.dropdown_Country=page.locator("xpath=//input[@id='countryPermanentAddress']").click();
+        this.dropdown_Country=page.locator("xpath=//input[@id='countryPermanentAddress']")
        this.txtbox_permICAOCountryCode=page.locator('input[name="iCAOCountryCode"]')         
 
         this.txtbox_permPhone=page.locator('input[name="phone"]')
