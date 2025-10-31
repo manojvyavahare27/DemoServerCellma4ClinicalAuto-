@@ -195,6 +195,7 @@ test.describe('New Patient', () => {
       await addaddress.enterTownInAddress(jsonData.permanentAddress[index].add_address3);
       await addaddress.enterDestrict(jsonData.permanentAddress[index].add_address2);
       await addaddress.enterCounty(jsonData.permanentAddress[index].add_address4);
+      await page.pause()
       await addaddress.enterPostCode(jsonData.permanentAddress[index].add_address5.toString());     
      await page.locator("xpath=//input[@id='countryPermanentAddress']").click();
      
