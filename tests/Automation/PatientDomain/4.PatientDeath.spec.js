@@ -107,6 +107,7 @@ test.describe("Patient Domain Db Comparison", () => {
         await patientdeath.enterCauseOfDeathReason(jsonData.patCauseOfDeath[index].pod_cause);
         await patientdeath.selectCheckBoxDeathCauseReason();
         await patientdeath.enterCauseOfDeathType();
+        await page.pause()
         await patientdeath.enterOtherCauseeOfDeath();     
         await patientdeath.enterAdditionalNotes(jsonData.patDetails[index].pat_death_notes);
         await patientdeath.selectDateOfDeath();
