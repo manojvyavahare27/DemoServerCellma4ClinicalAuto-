@@ -89,13 +89,13 @@ test.describe("Patient Domain Db COmparison", () => {
     await patientsearch.enterFamilyName(jsonData.addPatient[index].pat_surname.toString());
     
     await patientsearch.clickOnSearchButton();
-   await page.pause()
+  
     await patientsearch.clickOnSearchPatientLink();  
     await page.waitForTimeout(1500);
-      await page.pause()
+     
     await confirmexisting.selectRelationship(jsonData.pip[index].pip_relationship);
     await page.waitForTimeout(1500);   
-    await page.pause()
+   
     await confirmexisting.clickOnConfirmExistingDetails();
     //await page.pause()
     await page.waitForTimeout(1500);
