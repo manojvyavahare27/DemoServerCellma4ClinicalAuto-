@@ -8,7 +8,7 @@ class PatientDuplicateCheck
         this.txtbox_unique_Identification_Id=page.getByTestId('Unique Identification ID')
         this.dropdown_photo_Identification=page.getByTestId('photoIdentification').getByLabel('Open')
         this.txtbox_photo_Identification_Id=page.getByTestId('Photo Identification ID')
-        this.dropdown_issuing_Country=page.locator("xpath=//input[@id='countryPermanentAddress']")
+        this.dropdown_issuing_Country=page.getByTestId('issuingCountry').getByLabel('Open')
 
         this.dropdown_Title=page.getByTestId('Title').getByLabel('​', { exact: true })
 
