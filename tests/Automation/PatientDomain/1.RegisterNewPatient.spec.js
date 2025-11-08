@@ -304,7 +304,7 @@ test.describe('New Patient', () => {
       await addpip.checkSendPatientTextEmail(jsonData.pip[index].pip_send_txt_email_yes);
       await addpip.checkIsReferrer();
       await addpip.enterPIPNotes(jsonData.pip[index].pip_notes);
-      await page.pause()
+     // await page.pause()
       await addpip.checkcAssistingInPartner();
       await addpip.checkHelpingPatients();
       await addpip.checkBeingPhotographed();
