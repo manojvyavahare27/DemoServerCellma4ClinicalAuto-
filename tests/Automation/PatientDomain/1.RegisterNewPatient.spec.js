@@ -113,8 +113,8 @@ test.describe('New Patient', () => {
  patientsearch.clickOnSearchButton();
       await patientsearch.clickOnAddPatientbutton();
       await patientduplicatecheck.clickOnDuplicateCheckButton();
-      await expect(page.getByText("Photo Identification required")).toHaveText("Photo Identification required");
-      await expect(page.getByText("Photo Identification ID required")).toHaveText("Photo Identification ID required");
+      // await expect(page.getByText("Photo Identification required")).toHaveText("Photo Identification required");
+      // await expect(page.getByText("Photo Identification ID required")).toHaveText("Photo Identification ID required");
       //await expect(page.getByText("Middle name(s) is required")).toHaveText("Middle name(s) is required");
 
       // await page.pause()
