@@ -176,11 +176,12 @@ test.describe("Patient Domain Db COmparison", () => {
     const patId = results[0].pat_id;
     console.log("Patient id is:" + patId);
       
-    sqlQuery =
-      "select * from referrals join referral_treatment_target_times on rtt_ref_id = ref_id where ref_pat_id ='" +
-      patId +
-      "' order by ref_id desc limit 1";
-    console.log(sqlQuery);
+    // sqlQuery =
+    //   "select * from referrals join referral_treatment_target_times on rtt_ref_id = ref_id where ref_pat_id ='" +
+    //   patId +
+    //   "' order by ref_id desc limit 1";
+    sqlQuery="select * from referrals where ref_pat_id ='" +  patId + "' order by ref_id desc limit 1";
+        console.log(sqlQuery);
     results = await executeQuery(sqlQuery, sqlFilePath);
 
     var match = await compareJsons(

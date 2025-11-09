@@ -20,7 +20,7 @@ class Homepage{
         //PharmacyHomePage
         this.findPatientSidebarLink=page.locator("xpath=//h1[normalize-space()='Find Patient']")
         this.Medicationsidebar=page.locator("xpath=//h1[normalize-space()='Medications']")
-        this.AddMedicationlink=page.getByRole('button', { name: 'Add' })
+        this.AddMedicationlink=page.locator("xpath=//h1[text()='Add']")
         this.ContacHistorycategory=page.locator("xpath=//h1[contains(text(),'Contact History')]")
 
 

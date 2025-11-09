@@ -160,6 +160,7 @@ test.describe("Patient Domain Db COmparison", () => {
     await confirmexisting.clickOnSaveChangeDetails();
     await expect(page.getByText("Patient details changed successfully")).toHaveText("Patient details changed successfully");
 
+    await page.pause()
     ////////// Patient Referral comparison/////////
     var sqlQuery ="select * from patients where pat_hospital_ref= '" + jsonData.addPatient[index].pat_hospital_ref + "' order by pat_id desc limit 1";
 
@@ -169,7 +170,8 @@ test.describe("Patient Domain Db COmparison", () => {
     const patId = results[0].pat_id;
     console.log("Patient id is:" + patId);
 
-    sqlQuery = "select * from referrals where ref_pat_id ='" + patId +  "' order by ref_id desc limit 1";
+    //sqlQuery = "select * from referrals where ref_pat_id ='" + patId +  "' order by ref_id desc limit 1";
+    sqlQuery="select * from referrals where ref_pat_id ='" +  patId + "' order by ref_id desc limit 1";
     console.log(sqlQuery);
     results = await executeQuery(sqlQuery, sqlFilePath);
     var match = await compareJsons(sqlFilePath,null,jsonData.AddReferral[index]);

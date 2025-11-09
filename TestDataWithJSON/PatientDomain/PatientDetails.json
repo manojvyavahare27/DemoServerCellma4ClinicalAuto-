@@ -31,9 +31,9 @@
   ],
   "addPatient": [
     {
-      "pat_hospital_ref": "hosAPP0111",
+      "pat_hospital_ref": "hosAPP0113",
       "pat_title": "Mr",
-      "pat_firstname": "RegSarangAAe",
+      "pat_firstname": "RegSarangAAg",
       "pat_surname": "riomed",
       "pat_sex": "M",
       "pat_dob": "01/01/2000",
@@ -66,7 +66,7 @@
     {
       "pat_hospital_ref": "AutoHosp109",
       "pat_title": "B/O",
-      "pat_firstname": "RegSarangAAe",
+      "pat_firstname": "RegSarangAAg",
       "pat_surname": "riomed",
       "pat_sex": "M",
       "pat_dob": "01/01/2000",
@@ -97,7 +97,7 @@
   ],
   "patientIdentifier": [
     {
-      "pat_firstname": "RegSarangAAe",
+      "pat_firstname": "RegSarangAAg",
       "pat_lastname": "riomed",
       "pat_sex": "M",
       "pat_dob": "01/01/2000",
@@ -106,7 +106,7 @@
       "pat_country": "India",
       "pat_title": "B/O",
       "pat_middlename": "Martin",
-      "add_email": "RegSarangAAe.riomed@Gmail.com"
+      "add_email": "RegSarangAAg.riomed@Gmail.com"
     }
   ],
   "tempAddress": [
@@ -448,12 +448,12 @@
   ],
   "patDetails": [
     {
-      "pat_hospital_ref": "hosAPP0111",
+      "pat_hospital_ref": "hosAPP0113",
       "pat_dod": "29/10/2023",
       "pat_tod": "00:11",
       "pat_dead_confirmation_status": "confirmed",
       "pat_death_notes": "Added For Testing",
-      "pat_firstname": "RegSarangAAe",
+      "pat_firstname": "RegSarangAAg",
       "pat_surname": "riomed"
     }
   ],

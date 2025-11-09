@@ -113,6 +113,7 @@ test.describe("Medications Category", () => {
       await patientsearch.clickOnSearchButton();
       await patientsearch.clickOnSearchPatientLink();
       await page.waitForTimeout(4000);
+      await page.pause()
       //await confirmexisting.clickOnConfirmExistingDetails();
       await homepage.clickOnMedicationSidebar()
      
