@@ -190,6 +190,7 @@ test.describe("Database Comparison Reschedule Appointment and Attended", () => {
         await expect(page.getByText('Communication consent saved successfully')).toHaveText('Communication consent saved successfully')     
         await page.waitForTimeout(2000);
         //Atteded Appointment
+        //await page.pause()
         await scheduleserviceapp.clickOnAppScheduleStatus()
         await scheduleserviceapp.clickOnAddAttended()
         await scheduleserviceapp.clickOnSaveButton()
@@ -377,6 +378,7 @@ test.describe("Database Comparison Reschedule Appointment and Attended", () => {
 
 
     //Change status to Reschedule Appointment
+    
     
     await scheduleserviceapp.clickOnAppScheduleStatus()
     await scheduleserviceapp.clickOnReScheduleAppButton()

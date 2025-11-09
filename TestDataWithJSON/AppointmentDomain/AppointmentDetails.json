@@ -281,8 +281,8 @@
   "bookNewAppointments": [
     {
       "rea_date": "08/11/2025",
-      "rea_time": "08:45:00",
-      "convertedTime": "08:45 AM",
+      "rea_time": "08:15:00",
+      "convertedTime": "08:15 AM",
       "rea_status": "scheduled",
       "rea_notes": "AddTesting Notes",
       "rea_duration": 15,
@@ -296,7 +296,7 @@
       "rea_reason_for_delay": "Appointment offered within 48 hours - declined by patient",
       "rea_region_eli_text": "HP Region1",
       "rea_patient_type": "Regular",
-      "rea_end_time": "09:00:00",
+      "rea_end_time": "08:30:00",
       "rea_special": "All Specialties",
       "rea_hp_name_link": "Mr Manoj Automation"
     }
@@ -373,10 +373,10 @@
     {
       "rea_date": "08/11/2025",
       "rea_edited_date": "08/11/2025",
-      "rea_time": "11:45:00",
-      "rea_edited_time": "15:15:00",
-      "convertedTime": "11:45 AM",
-      "convertedEditedTime": "03:15 PM",
+      "rea_time": "11:15:00",
+      "rea_edited_time": "12:00:00",
+      "convertedTime": "11:15 AM",
+      "convertedEditedTime": "12:00 PM",
       "rea_status": "scheduled",
       "rea_notes": "AddTesting Notes",
       "rea_duration": 15,
@@ -391,7 +391,7 @@
       "rea_reason_for_delay": "Appointment offered within 48 hours - declined by patient",
       "rea_region_eli_text": "HP Region1",
       "rea_patient_type": "Regular",
-      "rea_end_time": "12:00:00",
+      "rea_end_time": "11:30:00",
       "rea_special": "All Specialties",
       "rea_hp_name_link": "Mr Manoj Automation"
     }
