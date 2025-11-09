@@ -200,6 +200,7 @@ test.describe("Database Comparison Book New App and Cancel", () => {
           await servicebookapp.clickOnCommuConsentSaveButton()
           await expect(page.getByText('Communication consent saved successfully')).toHaveText('Communication consent saved successfully')     
          
+          await page.pause()
           // 3rd July code
           await scheduleserviceapp.clickOnLinksMenu()
           await scheduleserviceapp.clickOnAddAppointmentLink()
@@ -254,8 +255,10 @@ test.describe("Database Comparison Book New App and Cancel", () => {
           await scheduleserviceapp.clickonRefresh()
           await scheduleserviceapp.closePopUpWindow()     
          
+          await page.pause()
      await scheduleserviceapp.ClickonAppTypeLink()
      await scheduleserviceapp.clickOnCloseAppTypePopup()
+     await page.pause()
      await scheduleserviceapp.ClickonAppTypeLink()
      await scheduleserviceapp.selectAppTypeDropdown()
      await scheduleserviceapp.clickOnChangeButton()
