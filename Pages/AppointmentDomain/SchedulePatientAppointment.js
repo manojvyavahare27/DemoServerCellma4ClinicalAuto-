@@ -36,8 +36,8 @@ class ServiceBookApp
         //Change Appointment Type:
         this.linkAppType=page.locator("xpath=//a[@data-testid='Appointment Type']")
         this.btncloseAppTypePopup=page.getByLabel('cancelIcon')
-        this.dropdownAppType=page.getByLabel('Open')
-        this.btnChange=page.getByTestId('Change')
+        this.dropdownAppType=page.locator("xpath=//input[@name='appointmentType']")
+        this.btnChange=page.locator("xpath=//button[@data-testid='Change']")
 
         //Change Appointment Status
         this.linkAppStautsSchedule=page.getByTestId('Status')
