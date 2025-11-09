@@ -221,7 +221,7 @@ test.describe("Medications Category", () => {
       await MedicationsExtraDetails.selectEndoserment(jsonData.AddMedication[index].paprd_endorsement) 
       await MedicationsExtraDetails.enterPriceCheckQuantity(jsonData.AddMedication[index].meded_value_Price_check_quantity)  
       await MedicationsExtraDetails.enterClinicalItemNotes(jsonData.AddMedication[index].medi_notes) 
-            
+            await page.pause()
       await page.waitForTimeout(1000);  
       await MedicationsExtraDetails.clickOnSaveExtraDetails();      
       await page.waitForTimeout(1000);           
